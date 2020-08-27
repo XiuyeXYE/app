@@ -21,7 +21,7 @@ public class MyUserDetailsService implements UserDetailsService{
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		X.lnS("user name :",username);
-		
+		X.lnS("encode password:",PE.encode("123456"));
 		User user = new User(username,PE.encode("123456"),AuthorityUtils.commaSeparatedStringToAuthorityList("admin"));
 		
 		return user;
