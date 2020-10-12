@@ -114,7 +114,8 @@ public class CodeStatistics {
 		
 //		ft.travel("G:\\software");
 //		ft.travel("G:\\projects\\mybatis-plus\\mybatis-plus-core\\src\\main\\java");
-		ft.travel("G:\\projects\\mybatis-plus");
+//		ft.travel("G:\\projects\\mybatis-plus");
+		ft.travel("G:\\projects2\\JavaUtil");
 
 		X.lnS("扫描文件夹数：",ft.getDirCount(),"\n", 
 				"扫描文件数：",ft.getFileCount(), "\n",
